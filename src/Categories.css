@@ -1,0 +1,31 @@
+.categories-container {
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(222, 222, 222);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    row-gap: 1rem;
+    justify-content: center;
+}
+
+.categories-container input {
+    display: none;
+}
+
+.categories-container label:has(input:checked) {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+label.categories {
+    font-size: 16px !important;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 2rem;
+    padding: 0.25rem 1rem;
+    background-color: #F7F7F7;
+    font-size: 0.75rem;
+    transition: 0.2s ease-in-out;
+}
